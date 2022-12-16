@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Test"
+           tests="6"
+           failures="5"
+           errors="0"
+           skipped="0"
+           time="94.874">
+  <properties />
+            <testcase name="verifyJobSearchResultUsingDifferentDataSet" time="20.980" classname="uk.co.library.testsuite.JobSearchTest">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="Cannot locate option with text: up to 10 mile
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: up to 10 mile
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+  org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+  uk.co.library.utility.UtilityClass.selectByVisibleTextFromDropDown(UtilityClass.java:147)
+  uk.co.library.pages.HomePage.selectDistance(HomePage.java:72)
+  uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(JobSearchTest.java:32)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyJobSearchResultUsingDifferentDataSet" time="20.836" classname="uk.co.library.testsuite.JobSearchTest">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#keywords&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [740609bf215e848b4d41afb3721bd4ab, findElement {using=id, value=keywords}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Manisha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52264}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52264/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 740609bf215e848b4d41afb3721bd4ab"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#keywords"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [740609bf215e848b4d41afb3721bd4ab, findElement {using=id, value=keywords}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Manisha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52264}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52264/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 740609bf215e848b4d41afb3721bd4ab
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+  org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+  org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+  org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+  com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+  uk.co.library.utility.UtilityClass.sendTextToElement(UtilityClass.java:74)
+  uk.co.library.pages.HomePage.enterJobTitle(HomePage.java:62)
+  uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(JobSearchTest.java:30)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyJobSearchResultUsingDifferentDataSet" time="20.880" classname="uk.co.library.testsuite.JobSearchTest">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#keywords&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c7cffbaf85285a9b95c1c1daff1a3b0, findElement {using=id, value=keywords}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Manisha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52484/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c7cffbaf85285a9b95c1c1daff1a3b0"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#keywords"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c7cffbaf85285a9b95c1c1daff1a3b0, findElement {using=id, value=keywords}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Manisha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52484/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c7cffbaf85285a9b95c1c1daff1a3b0
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+  org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+  org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+  org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+  com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+  uk.co.library.utility.UtilityClass.sendTextToElement(UtilityClass.java:74)
+  uk.co.library.pages.HomePage.enterJobTitle(HomePage.java:62)
+  uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(JobSearchTest.java:30)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyJobSearchResultUsingDifferentDataSet" time="20.286" classname="uk.co.library.testsuite.JobSearchTest">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#save&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ddceb97e106a7b88c3c5e970c8f01b4f, findElement {using=id, value=save}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Manisha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52410}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52410/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddceb97e106a7b88c3c5e970c8f01b4f"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#save"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ddceb97e106a7b88c3c5e970c8f01b4f, findElement {using=id, value=save}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Manisha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52410}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52410/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddceb97e106a7b88c3c5e970c8f01b4f
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+  org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+  org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+  org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+  com.sun.proxy.$Proxy16.click(Unknown Source)
+  uk.co.library.utility.UtilityClass.clickOnElement(UtilityClass.java:52)
+  uk.co.library.pages.HomePage.acceptCookies(HomePage.java:106)
+  uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(JobSearchTest.java:29)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyJobSearchResultUsingDifferentDataSet" time="3.536" classname="uk.co.library.testsuite.JobSearchTest">
+                <failure type="org.openqa.selenium.ElementClickInterceptedException"
+                  message="element click intercepted: Element &lt;button type=&quot;button&quot; id=&quot;toggle-hp-search&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/button&gt; is not clickable at point (331, 381). Other element would receive the click: &lt;div class=&quot;autocomplete-suggestion&quot; data-val=&quot;Teaching Assistant&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=108.0.5359.125)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b74c375528a0431b8d2e690c8d9093ea, clickElement {id=1e57c13e-ad46-4c29-89c2-b5e48dd396df}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Manisha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52630}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52630/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b74c375528a0431b8d2e690c8d9093ea)] -&gt; id: toggle-hp-search]
+Session ID: b74c375528a0431b8d2e690c8d9093ea"
+              >
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" id="toggle-hp-search" aria-expanded="false">...</button> is not clickable at point (331, 381). Other element would receive the click: <div class="autocomplete-suggestion" data-val="Teaching Assistant">...</div>
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b74c375528a0431b8d2e690c8d9093ea, clickElement {id=1e57c13e-ad46-4c29-89c2-b5e48dd396df}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Manisha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52630}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52630/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b74c375528a0431b8d2e690c8d9093ea)] -> id: toggle-hp-search]
+Session ID: b74c375528a0431b8d2e690c8d9093ea
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+  com.sun.proxy.$Proxy16.click(Unknown Source)
+  uk.co.library.utility.UtilityClass.clickOnElement(UtilityClass.java:52)
+  uk.co.library.pages.HomePage.clickOnMoreSearchOptionLink(HomePage.java:77)
+  uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(JobSearchTest.java:34)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="verifyJobSearchResultUsingDifferentDataSet" time="8.356" classname="uk.co.library.testsuite.JobSearchTest" />
+      
+</testsuite>
